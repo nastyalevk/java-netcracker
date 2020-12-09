@@ -1,0 +1,1 @@
+# Proxy and singleton patterns
