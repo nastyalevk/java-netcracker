@@ -20,7 +20,7 @@ public class SingletonDriver {
         secondThread.start();
     }
 
-    static class FirstThread implements Runnable{
+    static class FirstThread implements Runnable {
 
         @Override
         public void run() {
@@ -29,7 +29,7 @@ public class SingletonDriver {
         }
     }
 
-    static class SecondThread implements Runnable{
+    static class SecondThread implements Runnable {
 
         @Override
         public void run() {

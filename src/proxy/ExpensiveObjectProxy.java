@@ -5,7 +5,7 @@ public class ExpensiveObjectProxy implements ExpensiveObject {
 
     @Override
     public void process() {
-        if(object == null) {
+        if (object == null) {
             object = new ExpensiveObjectImpl();
         }
         object.process();

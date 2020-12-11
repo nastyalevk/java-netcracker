@@ -16,5 +16,5 @@ public class ProxyPatternDriver {
         long timeSpentProxy = System.currentTimeMillis() - startTimeProxy;
         System.out.println("Proxy " + timeSpentProxy + " millis");
 
-        }
+    }
 }

@@ -4,6 +4,7 @@ public class DclSingleton {
     // volatile - kinda synchronized variable, but avoid ++ -- operations
     private static volatile DclSingleton instance;
     private String value;
+
     private DclSingleton(String value) {
         this.value = value;
     }
