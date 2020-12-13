@@ -10,5 +10,4 @@ public class ObserverDriver {
         observable.setNews("news");
         System.out.println(observer.getNews() + "   news");
     }
-
 }
