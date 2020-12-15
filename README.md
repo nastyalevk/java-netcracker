@@ -1,1 +1,1 @@
-# Proxy and singleton patterns
+# Proxy, singleton, observer patterns
