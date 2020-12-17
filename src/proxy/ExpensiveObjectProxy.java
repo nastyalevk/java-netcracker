@@ -1,13 +1,10 @@
 package proxy;
 
 public class ExpensiveObjectProxy implements ExpensiveObject {
-    private static ExpensiveObject object;
+    private ExpensiveObject object = new ExpensiveObjectImpl();
 
     @Override
     public void process() {
-        if (object == null) {
-            object = new ExpensiveObjectImpl();
-        }
         object.process();
         System.out.println("Additional logging");
     }
