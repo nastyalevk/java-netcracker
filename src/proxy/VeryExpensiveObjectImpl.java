@@ -1,14 +1,14 @@
 package proxy;
 
-public class ExpensiveObjectImpl implements ExpensiveObject {
+public class VeryExpensiveObjectImpl implements ExpensiveObject {
 
-    public ExpensiveObjectImpl() {
+    public VeryExpensiveObjectImpl() {
         heavyInitialConfiguration();
     }
 
     @Override
     public void process() {
-        System.out.println("ExpensiveObject processing complete.");
+        System.out.println("VeryExpensive processing complete.");
     }
 
     private void heavyInitialConfiguration() {

@@ -1,11 +1,16 @@
 package proxy;
 
 public class ExpensiveObjectProxy implements ExpensiveObject {
-    private ExpensiveObject object = new ExpensiveObjectImpl();
+
+    private ExpensiveObject expensiveObject;
+
+    public ExpensiveObjectProxy(ExpensiveObject expensiveObject) {
+        this.expensiveObject = expensiveObject;
+    }
 
     @Override
     public void process() {
-        object.process();
+        expensiveObject.process();
         System.out.println("Additional logging");
     }
 }
