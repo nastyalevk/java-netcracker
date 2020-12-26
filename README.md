@@ -4,6 +4,7 @@ Examples were taken from here:
 - [Proxy]
 - [Observer]
 - [Facade]
+- [Abstract Factory]
 
 [Singleton]: https://www.baeldung.com/java-singleton
 
@@ -12,3 +13,5 @@ Examples were taken from here:
 [Observer]: https://www.baeldung.com/java-observer-pattern
 
 [Facade]: https://www.baeldung.com/java-facade-pattern
+
+[Abstract Factory]: https://www.baeldung.com/java-abstract-factory-pattern

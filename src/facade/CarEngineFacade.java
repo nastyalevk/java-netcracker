@@ -1,6 +1,11 @@
 package facade;
 
-import facade.car.*;
+
+import facade.car.AirFlowController;
+import facade.car.CatalyticConverter;
+import facade.car.CoolingController;
+import facade.car.FuelInjector;
+import facade.car.Starter;
 
 public class CarEngineFacade {
     private static final Integer DEFAULT_COOLING_TEMP = 90;

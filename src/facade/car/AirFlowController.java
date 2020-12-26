@@ -5,7 +5,7 @@ public class AirFlowController {
     private AirFlowMeter airFlowMeter = new AirFlowMeter();
 
     public void takeAir(){
-        airFlowMeter.getMeasuremenst();
+        airFlowMeter.getMeasurement();
         System.out.println("Air provided!");
     }
 
