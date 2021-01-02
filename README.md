@@ -6,6 +6,7 @@ Examples were taken from here:
 - [Facade]
 - [Abstract Factory]
 - [Factory Method]
+- [Strategy]
 
 [Singleton]: https://www.baeldung.com/java-singleton
 
@@ -19,4 +20,4 @@ Examples were taken from here:
 
 [Factory Method]: https://www.baeldung.com/creational-design-patterns#factory-method
 
-[Factory Method]: [https://www.baeldung.com/creational-design-patterns#factory-method]
+[Strategy]: https://www.baeldung.com/java-strategy-pattern
