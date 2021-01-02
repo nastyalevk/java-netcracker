@@ -1,9 +1,9 @@
 package abstractFactory;
 
-import abstractFactory.color.Black;
-import abstractFactory.color.Brown;
-import abstractFactory.color.Color;
-import abstractFactory.color.White;
+import abstractFactory.color.impl.Black;
+import abstractFactory.color.impl.Brown;
+import abstractFactory.color.api.Color;
+import abstractFactory.color.impl.White;
 
 public class ColorFactory implements AbstractFactory<Color>{
     @Override

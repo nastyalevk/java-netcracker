@@ -1,4 +1,4 @@
-package abstractFactory.animal;
+package abstractFactory.animal.api;
 
 public interface Animal {
     String getType();

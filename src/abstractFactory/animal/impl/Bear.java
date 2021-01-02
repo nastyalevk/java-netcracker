@@ -1,4 +1,6 @@
-package abstractFactory.animal;
+package abstractFactory.animal.impl;
+
+import abstractFactory.animal.api.Animal;
 
 public class Bear implements Animal {
 

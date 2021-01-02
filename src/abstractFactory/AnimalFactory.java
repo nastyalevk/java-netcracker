@@ -1,9 +1,9 @@
 package abstractFactory;
 
-import abstractFactory.animal.Animal;
-import abstractFactory.animal.Bear;
-import abstractFactory.animal.Dog;
-import abstractFactory.animal.Duck;
+import abstractFactory.animal.api.Animal;
+import abstractFactory.animal.impl.Bear;
+import abstractFactory.animal.impl.Dog;
+import abstractFactory.animal.impl.Duck;
 
 public class AnimalFactory implements AbstractFactory<Animal>{
     @Override

@@ -1,6 +1,8 @@
-package abstractFactory.animal;
+package abstractFactory.animal.impl;
 
-public class Dog implements Animal{
+import abstractFactory.animal.api.Animal;
+
+public class Dog implements Animal {
     @Override
     public String getType() {
         return "Dog";

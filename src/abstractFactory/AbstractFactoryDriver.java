@@ -1,7 +1,7 @@
 package abstractFactory;
 
-import abstractFactory.animal.Animal;
-import abstractFactory.color.Color;
+import abstractFactory.animal.api.Animal;
+import abstractFactory.color.api.Color;
 
 public class AbstractFactoryDriver {
     public static void main(String[] args) {
