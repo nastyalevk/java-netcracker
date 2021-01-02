@@ -26,5 +26,4 @@ public class PolygonFactory {
         }
         return null;
     }
-
 }
