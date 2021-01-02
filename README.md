@@ -19,4 +19,3 @@ Examples were taken from here:
 
 [Factory Method]: https://www.baeldung.com/creational-design-patterns#factory-method
 
-[Factory Method]: [https://www.baeldung.com/creational-design-patterns#factory-method]
